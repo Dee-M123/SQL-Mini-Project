@@ -57,7 +57,8 @@ Revenue declines steadily after the morning peak, with significantly lower activ
 Analysis of transaction quantities reveals that customers typically purchase single items per transaction. As a result, revenue growth is driven by customer volume rather than basket size, 
 reinforcing the importance of foot traffic and peak-hour optimization.
 
-Project Structure
+**Project Structure**
+
  coffee-shop-sales-analysis
 │
 
