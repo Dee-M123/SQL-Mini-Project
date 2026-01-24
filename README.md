@@ -34,8 +34,10 @@ Based on these considerations, the following hypotheses were formulated.
     H2: Coffee products contribute more to overall revenue than non-coffee products.
 
     H3: Sales revenue peaks during specific hours of the day.
+    
 
 **Findings**
+
     Store Performance (H1) Supported
 Revenue varies significantly across store locations. Some locations consistently outperform others, not due to higher prices, 
 but because they serve a greater number of customers. Average transaction values remain consistent across stores, indicating standardized pricing.
