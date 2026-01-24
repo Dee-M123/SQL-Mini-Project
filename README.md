@@ -113,22 +113,34 @@ This project was developed using:
 Execution Order
 
 Data Cleaning (Python);
+
             Run 01_data_cleaning_sql.ipynb to clean raw data and reconstruct date fields.
+            
 
 ERD-Based CSV Creation (Python);
+
             Run 02_erd_csv_creation.ipynb to generate SQL-ready CSV files.
+            
 
 Database Creation (SQL);
+
             Execute 01_sql_mini_project_database_creation.sql to create tables and relationships.
+            
 
 Data Import (MySQL Workbench);
+
+
             Import CSV files into MySQL using the Table Data Import Wizard.
+            
 
 SQL Analysis;
+
             Run 02_sql_queries_and_analysis_mini_proj.sql to test hypotheses and export results.
 
 Visualization (Python);
+
             Run 03_mini_project_visualisation.ipynb to create charts using exported SQL results.
+            
 
 **Key Insights**
 
