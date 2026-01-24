@@ -110,7 +110,7 @@ This project was developed using:
 
 (All required libraries are pre-installed in Google Colab.)
 
-Execution Order
+**Execution Order**
 
 Data Cleaning (Python);
 
