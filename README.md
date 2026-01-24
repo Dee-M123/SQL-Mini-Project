@@ -5,6 +5,8 @@ Understanding what drives revenue in such environments is essential for optimizi
 Using transactional sales data from a multi-location coffee shop chain, this project analyzes sales performance across store locations, product categories, 
 and time periods, with the goal of identifying patterns that can support data-driven business decisions.
 
+Dataset provided by: https://www.kaggle.com/datasets/divu2001/coffee-shop-sales-analysis
+
 **General Overview of the Dataset**
 
 The dataset contains detailed transactional records, including information on store locations, products sold, transaction timing, quantities, and total sales values.
@@ -56,22 +58,39 @@ reinforcing the importance of foot traffic and peak-hour optimization.
 Project Structure
  coffee-shop-sales-analysis
 │
+
 ├──  data
+
 │   ├── raw
+
 │   ├── cleaned
+
 │   ├── sql_table_csv
+
 │   └── sql_python_visualisation_csv
+
 │
+
 ├──  notebooks
+
 │   ├── python
+
 │   │   ├── 01_data_cleaning_sql.ipynb
+
 │   │   ├── 02_erd_csv_creation.ipynb
+
 │   │   └── 03_mini_project_visualisation.ipynb
+
 │   │
+
 │   └── sql
+
 │       ├── 01_sql_mini_project_database_creation.sql
+
 │       └── 02_sql_queries_and_analysis_mini_proj.sql
+
 │
+
 └── README.md
 
 **How to Run the Project**
@@ -94,22 +113,22 @@ This project was developed using:
 Execution Order
 
 Data Cleaning (Python);
-    Run 01_data_cleaning_sql.ipynb to clean raw data and reconstruct date fields.
+        Run 01_data_cleaning_sql.ipynb to clean raw data and reconstruct date fields.
 
 ERD-Based CSV Creation (Python);
-    Run 02_erd_csv_creation.ipynb to generate SQL-ready CSV files.
+        Run 02_erd_csv_creation.ipynb to generate SQL-ready CSV files.
 
 Database Creation (SQL);
-    Execute 01_sql_mini_project_database_creation.sql to create tables and relationships.
+        Execute 01_sql_mini_project_database_creation.sql to create tables and relationships.
 
 Data Import (MySQL Workbench);
-    Import CSV files into MySQL using the Table Data Import Wizard.
+        Import CSV files into MySQL using the Table Data Import Wizard.
 
 SQL Analysis;
-    Run 02_sql_queries_and_analysis_mini_proj.sql to test hypotheses and export results.
+        Run 02_sql_queries_and_analysis_mini_proj.sql to test hypotheses and export results.
 
 Visualization (Python);
-    Run 03_mini_project_visualisation.ipynb to create charts using exported SQL results.
+        Run 03_mini_project_visualisation.ipynb to create charts using exported SQL results.
 
 **Key Insights**
 
